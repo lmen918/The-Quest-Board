@@ -1,0 +1,32 @@
+html {
+    background-color: black;
+}
+
+.wrapper {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background: url("../resources/The_Quest_Board_Main.png");
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.wrapper:after {
+    padding-top: 75%;
+    display: block;
+    content: '';
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    text-align: center;
+    margin-top: 0%;
+}
