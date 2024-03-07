@@ -1,25 +1,26 @@
-html {
+body {
     background-color: black;
-}
-
-.wrapper {
-    width: 100%;
-    display: inline-block;
-    position: relative;
     background: url("../resources/The_Quest_Board_Main.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+.wrapper {
+    width:  100%;
+    display: inline;
+    position: relative;
     background-origin: content-box;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
 }
-
 .wrapper:after {
-    padding-top: 75%;
+    padding-top: 100%;
+    padding-bottom: 50%;
     display: block;
     content: '';
 }
-
 .main {
     position: absolute;
     top: 0;
@@ -28,5 +29,72 @@ html {
     left: 0;
     color: black;
     text-align: center;
-    margin-top: 0%;
+    margin-top: 55%;
+}
+.buttons {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: black;
+    text-align: center;
+    margin-top: 130%;
+}
+.tavernBtn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 72%;
+    left: 0;
+    text-align: left;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+    background-image: url("../resources/The_Quest_Board_lArrow.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+}
+.exchangeBtn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 72%;
+    text-align: left;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+    background-image: url("../resources/The_Quest_Board_rArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+}
+.qbheader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    text-indent: 50px;
+}
+.qbtext {
+    position: inherit;
+    top: 5%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    text-indent: 10px;
+}
+.qbtext2 {
+    position: inherit;
+    top: 7%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    text-indent: 15px;
 }
